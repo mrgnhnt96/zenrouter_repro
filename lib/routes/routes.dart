@@ -1,0 +1,24 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:zen_router_poc/screens/book/book_screen.dart';
+import 'package:zen_router_poc/screens/books/books_screen.dart';
+import 'package:zen_router_poc/screens/home/home_screen.dart';
+import 'package:zen_router_poc/screens/magazine/magazine_screen.dart';
+import 'package:zen_router_poc/screens/not_found/not_found_screen.dart';
+import 'package:zenrouter/zenrouter.dart';
+import 'package:zenrouter_devtools/zenrouter_devtools.dart';
+
+part 'coordinator.dart';
+part 'defs/__routes.dart';
+part 'defs/__stacked.dart';
+part 'defs/__stacks.dart';
+part 'defs/app_route.dart';
+part 'extensions/extensions.dart';
+part 'defs/__nested_navs.dart';
+part 'routes/book_route.dart';
+part 'routes/books_route.dart';
+part 'routes/home_route.dart';
+part 'routes/index_route.dart';
+part 'routes/library_route.dart';
+part 'routes/magazine_route.dart';
+part 'routes/not_found_route.dart';
