@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:zen_router_poc/routes/routes.dart';
 
 class BooksScreen extends StatelessWidget {
   const BooksScreen({super.key});
@@ -15,7 +14,7 @@ class BooksScreen extends StatelessWidget {
           children: <Widget>[
             ElevatedButton(
               onPressed: () {
-                coordinator.push(BookRoute('1'));
+                // coordinator.push(BookRoute('1'));
               },
               child: Text('Book 1'),
             ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zen_router_poc/routes/routes.dart';
+import 'package:zen_router_poc/routes/coordinator.dart';
 
 void main() {
   runApp(const MyApp());
